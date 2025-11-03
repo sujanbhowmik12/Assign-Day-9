@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int rollNumberToCheck = 72;
+    int minRoll = 71;
+    int maxRoll = 140;
+
+    
+    if (rollNumberToCheck >= minRoll && rollNumberToCheck <= maxRoll) {
+        printf("Avinandan sir: Yes, roll number %d will come (is in the class roster).\n", rollNumberToCheck);
+    } else {
+        printf("Avinandan sir: No, roll number %d will not come (is not in the class roster).\n", rollNumberToCheck);
+    }
+
+    return 0;
+}
